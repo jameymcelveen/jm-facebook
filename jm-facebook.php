@@ -6,4 +6,4 @@ Plugin Name: JM Facebook Tools
 function jm_facebook_photos_func( $atts ){
     return "Facebook Photos";
 }
-add_shortcode( 'jm-facebook-photos', 'jm+facebook_photos_func' );
+add_shortcode( 'jm-facebook-photos', 'jm_facebook_photos_func' );
